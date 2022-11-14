@@ -1,0 +1,139 @@
+.our-team__section {
+  background-color: #f5f4fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.our-team__list {
+  margin-top: 30px;
+}
+
+.our-team__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.our-team__item-wrap {
+  width: 450px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.our-team__image {
+  width: 450px;
+  height: 460px;
+}
+
+.our-team__item-block {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  padding: 30px 30px 24px;
+}
+
+.team-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.team-position {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+  margin-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--main-color);
+  }
+}
+
+.social-list__icon {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social-list__link:hover &,
+  .social-list__link:focus & {
+    fill: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-team__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .our-team__item-wrap {
+    width: 354px;
+  }
+
+  .our-team__image {
+    width: 354px;
+    height: 374px;
+  }
+
+  .our-team__item {
+    &:nth-child(odd) {
+      margin-right: 30px;
+    }
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team__section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .our-team__list {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .our-team__item-wrap {
+    width: 270px;
+  }
+
+  .our-team__image {
+    width: 270px;
+    height: 260px;
+  }
+
+  .our-team__item-block {
+    padding: 30px;
+  }
+
+  .our-team__item:not(:last-child) {
+    margin: 0 30px 0 0;
+  }
+}
