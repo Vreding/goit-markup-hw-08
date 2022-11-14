@@ -54,7 +54,6 @@
 }
 
 .footer-social__container {
-  // margin-right: 93px;
   margin-bottom: 60px;
 }
 
@@ -174,7 +173,6 @@
   }
 
   .footer-form__input {
-    display: block;
     margin: 0 auto 20px;
   }
 }
@@ -186,6 +184,7 @@
   }
 
   .footer-contacts__container {
+    width: 220px;
     margin: 0 70px 0 0;
   }
 
@@ -221,14 +220,18 @@
   }
 
   .footer-form__input {
-    // width: 358px;
+    width: 358px;
+    margin: 0;
   }
 
-  // .footer-form__label {
-  //   margin-right: 12px;
-  // }
+  .footer-form__label {
+    display: inline-block;
+    margin-right: 12px;
+    width: 358px;
+  }
 
   .footer-form__button {
+    display: inline-flex;
     margin: 0;
   }
 }
