@@ -798,7 +798,7 @@ header {
     align-items: baseline;
   }
   .footer-contacts__container {
-    width: 220px;
+    width: 231px;
     margin: 0 70px 0 0;
   }
   .footer-contacts__logo {
@@ -816,7 +816,7 @@ header {
     margin-bottom: 9px;
   }
   .footer-social__container {
-    margin: 0 93px 0 0;
+    margin: 0 89px 0 0;
   }
   .footer-title {
     text-align: left;
