@@ -9,6 +9,13 @@
   background-position: 50% 50%;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url('../img/hero_bg@2x.jpg');
+    background-size: cover;
+  }
+}
+
 .hero-container {
   display: flex;
   flex-direction: column;
